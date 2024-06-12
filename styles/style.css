@@ -59,7 +59,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 
 .header__menu-link {
   color: #f5f5f5;
-  line-height: 120%;
+  line-height: 21.60px;
   text-decoration: none;
 }
 
@@ -140,6 +140,7 @@ h1 {
 .content-section__introduction {
   font-size: 20px;
   padding: 16px 0;
+  line-height: 133%;
 }
 
 .content-section__list {
@@ -148,6 +149,7 @@ h1 {
 
 .content-section__list-item {
   margin-bottom: 16px;
+  line-height: 130%;
 }
 
 .content-section__list-accent {
@@ -172,15 +174,32 @@ h1 {
   color: #131313;
 }
 
+.intro {
+  box-sizing: border-box;
+  color: #f5f5f5;
+  background-color: #1e1e1e;
+  width: 360px;
+  padding: 10px 20px 0;  
+}
+
 .intro__heading {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-start;
   color: #ccc;
 }
 
 .intro__date {
   white-space: nowrap;
+}
+
+.intro__title {
+  margin-top: 0;
+}
+
+.intro__main-text {
+  line-height: 21.60px;
+  padding-bottom: 24px;
 }
 
 .section_title_light {
@@ -226,6 +245,7 @@ h1 {
 .card__text {
   font-size: 16px;
   margin: 0;
+  line-height: 21.60px;
 }
 
 .card__author {
