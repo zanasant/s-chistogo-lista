@@ -69,10 +69,10 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .cover {
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 20px 28px;
   background-size: 95% auto;
   min-height: 221px;
-  padding: 0 24px 32px 20px;
+  padding: 0 24px 26px 20px;
 }
 
 .cover__title {
@@ -88,19 +88,19 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .text-left {
   display: block;
   text-align: left;
-  line-height: 110%;
+  line-height: 120%;
 }
 
 .text-center {
   display: block;
   text-align: center;
-  line-height: 100%;
+  line-height: 80%;
 }
 
 .text-right {
   display: block;
   text-align: right;
-  line-height: 100%;
+  line-height: 120%;
 }
 
 .content-section_theme_dark {
@@ -108,7 +108,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   color: #f5f5f5;
   background-color: #1e1e1e;
   width: 360px;
-  padding: 44px 20px;
+  padding: 40px 20px 28px;
 }
 
 .content-section_theme_bright {
@@ -124,8 +124,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   font-size: 28px;
   font-family: 'EB Garamond', serif;
   font-weight: 500;
-  line-height: 115%;
+  line-height: 80%;
   word-wrap: break-word;
+  margin: 0;
 }
 
 .content-section__subtitle_light {
@@ -133,8 +134,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   font-size: 28px;
   font-family: 'EB Garamond', serif;
   font-weight: 500;
-  line-height: 115%;
+  line-height: 80%;
   word-wrap: break-word;
+  margin: 0;
 }
 
 .content-section__introduction {
@@ -142,6 +144,15 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   padding: 16px 0;
   line-height: 27px;
   margin-bottom: 14px;
+  margin-top: 22px;
+}
+
+.content-section__introduction_how-to {
+  font-size: 20px;
+  padding-top: 6px;
+  line-height: 27px;
+  margin-bottom: 32px;
+  margin-top: 22px;
 }
 
 .content-section__list {
@@ -150,13 +161,13 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 }
 
 .content-section__list-item {
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   line-height: 21.6px;
   margin-top: 0;
 }
 
 .content-section__list-item_last {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 21.6px;
   margin-top: 0;
 }
@@ -182,7 +193,7 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .card_theme_bright {
   background-color: #fee42a;
   color: #131313;
-  padding-top: 10px;
+  padding-top: 16px;
 }
 
 .intro {
@@ -191,10 +202,6 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   background-color: #1e1e1e;
   width: 360px;
   padding: 0 20px;
-}
-
-.how-to {
-    padding-bottom: 26px;
 }
 
 .intro__heading {
@@ -211,6 +218,9 @@ h1 h2 h3 h4 h5 h6 p ul ol {
 .intro__title {
   margin-top: 0;
   margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .intro__main-text {
@@ -259,13 +269,15 @@ h1 h2 h3 h4 h5 h6 p ul ol {
   font-weight: 500;
   line-height: 135%;
   word-wrap: break-word;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 10px;
 }
 
 .card__text {
   font-size: 16px;
-  margin: 0 1px;
+  margin-right: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   line-height: 21.6px;
 }
 
